@@ -2,4 +2,9 @@
 let userInput = document.getElementById("userInput");
 
 // Buttons
-let buttonClicked = Event.target.innerText;
+let numButton = document.getElementsByClassName("numButton");
+
+// Click event for any button containing a function
+numButton.addEventListener("click", function (event) {
+    alert('test');
+});

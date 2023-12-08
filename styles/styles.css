@@ -21,25 +21,25 @@
     background-color: lightgrey;
     color:green;
 }
-.numButton{
+#numButton{
     font-size: 1.5vw;
     font-weight: bolder;
     width:33%;
     height:9vh;
 }
-.zerButton{
+#zerButton{
     font-size: 1.5vw;
     font-weight: bolder;
     width: 15vw;
     height:9vh;
 }
-.plusButton{
+#plusButton{
     font-size: 1.5vw;
     font-weight: bolder;
     width: 100%;
     height:18vh;
 }
-.entButton{
+#entButton{
     font-size: 1vw;
     font-weight: bolder;
     width:100%;
@@ -47,7 +47,7 @@
     word-break:break-all;
     padding-inline: 1vw;
 }
-.minButton{
+#minButton{
     font-size: 1.5vw;
     font-weight: bolder;
     width:100%;

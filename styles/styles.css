@@ -39,11 +39,16 @@
     width: 100%;
     height:18vh;
 }
+#backButton{
+    font-size: 1.5vw;
+    height: 9vh;
+    width: 100%;
+}
 #entButton{
     font-size: 1vw;
     font-weight: bolder;
     width:100%;
-    height:18vh;
+    height:9vh;
     word-break:break-all;
     padding-inline: 1vw;
 }

@@ -1,6 +1,9 @@
 h2{
     font-size: 2vw;
 }
+#prevDisplay{
+    font-size: 15px;
+}
 .calcBody{
     padding: 1%;
     margin-top:5%;
@@ -20,7 +23,9 @@ h2{
     width:15%
 }
 .userInput{
-    text-align: right;
+    display: flex;
+    overflow: scroll;
+    justify-content: space-between;
     background-color: lightgrey;
     color:green;
 }

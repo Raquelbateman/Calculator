@@ -1,4 +1,4 @@
-input{
+h2{
     font-size: 2vw;
 }
 .calcBody{
@@ -60,4 +60,13 @@ input{
     font-weight: bolder;
     width:100%;
     height:9vh;
+}
+/* Changing color of button once hovered over */
+button:hover{
+    color: midnightblue;
+    background-color: lightgray;
+}
+/* Changing color of button text when it's clicked */
+button:active{
+    color: red;
 }
